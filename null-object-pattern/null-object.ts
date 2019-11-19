@@ -1,6 +1,4 @@
-// Compile TypeScript before running
 // To test use in console printUser(1) - printUser(3)
-
 // Declaring class user with ID and Name
 class User {
   constructor(id, name) {

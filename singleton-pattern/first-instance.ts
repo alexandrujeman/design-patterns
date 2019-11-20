@@ -1,3 +1,4 @@
+// Importing instance of logger first time
 import logger from "./singleton";
 
 export default function logFirstImplementation() {

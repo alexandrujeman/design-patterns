@@ -31,6 +31,7 @@ const ItemControl = (function() {
     });
   }
 
+  // Returning reveals private method 
   return {
     add: add,
     get: get
@@ -38,5 +39,6 @@ const ItemControl = (function() {
 })();
 
 console.log('Reveal module pattern')
+// Call revealed private module
 ItemControl.add({ id: 1, name: "John" });
 console.log(ItemControl.get(1));

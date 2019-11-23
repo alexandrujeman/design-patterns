@@ -1,0 +1,13 @@
+
+{	"compilerOptions": {
+		"module": "es6",
+    "target": "es5",
+    "watch": true,
+		"strict": false,
+		"lib": [ "esnext", "dom", "dom.iterable"]
+  },
+  "files": [
+    "module.ts",
+  ],
+  "exclude": [ "bin", "node_modules" ]
+}
